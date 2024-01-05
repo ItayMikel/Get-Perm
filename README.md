@@ -4,9 +4,9 @@ Python and PowerShell tool that compares AD groups between two users.
 *Made for Active Directory environment domain
 *Requires Python3
 
-You'll need to change your PowerShell execution policy to allow local scripts to run if you haven't already.
+You'll need to change your PowerShell execution policy to allow local scripts to run.
 
-PS> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+PS> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 Are you familiar with these situation where something works for one user but not the other?
 Probably has something to do with user groups, but which one?
