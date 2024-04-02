@@ -1,11 +1,8 @@
 # Get-Perm
-Python and PowerShell tool that compares AD groups between two users.
-*Only works on Windows OS
-*Made for Active Directory environment domain
-*Requires Python3
+PowerShell tool that compares AD groups between two users,
+it dumps csv files with the requested users permissions for later review.
 
 You'll need to change your PowerShell execution policy to allow local scripts to run.
-
 PS> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 Are you familiar with these situation where something works for one user but not the other?
